@@ -9,7 +9,7 @@ class Artist
   end
   
   def songs
-    Songs.all.select do |tweet|
+    Song.all.select do |tweet|
       tweet.user == self
     end
   end
