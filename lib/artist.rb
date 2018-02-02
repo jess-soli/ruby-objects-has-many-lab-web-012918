@@ -8,6 +8,10 @@ class Artist
     #@songs = []
   end
   
+  def songs
+    
+  end
+  
 end
 
 adele = Artist.new("Adele")
