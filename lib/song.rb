@@ -18,9 +18,8 @@ class Song
     end
   end
   
-  def 
-    
+  def self.all
+    @@all
   end
   
-  song = Song.new("Survivor")
 end
