@@ -10,5 +10,5 @@ class Artist
   
 end
 
-adele = Artist.new("Adele", @songs)
-beyonce = Artist.new("Beyonce", @songs)
+adele = Artist.new("Adele")
+beyonce = Artist.new("Beyonce")
