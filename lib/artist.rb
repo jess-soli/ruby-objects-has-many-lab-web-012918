@@ -9,8 +9,8 @@ class Artist
   end
   
   def songs
-    Song.all.select do |tweet|
-      tweet.user == self
+    Song.all.select do |song|
+      song.user == self
     end
   end
   
