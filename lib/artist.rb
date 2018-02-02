@@ -10,4 +10,3 @@ class Artist
 end
 
 artist = Artist.new("Adele")
-#artist.name = "Adele"
