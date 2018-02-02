@@ -9,5 +9,5 @@ class Artist
   
 end
 
-artist = Artist.new("Adele")
-artist = Artist.new("Beyonce")
+adele = Artist.new("Adele")
+beyonce = Artist.new("Beyonce")
