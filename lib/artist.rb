@@ -8,7 +8,7 @@ class Artist
     #@songs = []
   end
   
-  def songs
+  def song
     Song.all.select do |song|
       song.user == self
     end
