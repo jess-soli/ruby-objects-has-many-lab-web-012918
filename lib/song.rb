@@ -7,5 +7,13 @@ class Song
     #@artist = artist
   end
   
+  def artist=()
+  
+  end
+  
+  def artist
+    
+  end
+  
   song = Song.new("Survivor")
 end
