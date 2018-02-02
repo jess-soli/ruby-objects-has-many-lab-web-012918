@@ -10,3 +10,4 @@ class Artist
 end
 
 artist = Artist.new("Adele")
+artist = Artist.new("Beyonce")
